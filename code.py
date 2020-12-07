@@ -1,8 +1,7 @@
 import sys,os
-#os.chdir("/Users/utkarshvirendranigam/Desktop/Homework/Project")
+
 required_packages=["PyQt5","scipy","itertools","random","matplotlib","pandas","numpy","sklearn","pydotplus","collections","warnings","seaborn"]
 
-#print(os.getcwd())
 for my_package in required_packages:
     try:
         command_string="conda install "+ my_package+ " --yes"
